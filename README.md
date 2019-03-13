@@ -3,3 +3,4 @@
 实现功能：首页商品列表页商品详情页 购买页等展示
 下载依赖模块 npm run serve运行
 
+![image text](https://github.com/Songlcwaityou/object/blob/master/01.png)
