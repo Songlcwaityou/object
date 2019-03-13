@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="maximum-scale=1,minimum-scale=1,width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>object</title>
   </head>
@@ -12,6 +12,24 @@
       <strong>We're sorry but object doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <template id="tpl">
+        <div>
+            <div class="header">
+              <div class="goback" @click='goBack'>
+                <span class="arrow">
+                  <span class="arrow green"></span>
+                </span>
+              </div>
+                <div class="res">登录</div>
+                <h1>美饿团购网 </h1>
+            </div>
+            <div class="search"><input type="search" placeholder='请输入商品关键字'></div>
+        <router-view></router-view>
+      </div>
+
+
+        </div>
+    </template>
     <!-- built files will be auto injected -->
   </body>
 </html>
