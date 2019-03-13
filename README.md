@@ -6,3 +6,4 @@
 ![image text](https://github.com/Songlcwaityou/object/blob/master/01.png)
 ![image text](https://github.com/Songlcwaityou/object/blob/master/02.png)
 ![image text](https://github.com/Songlcwaityou/object/blob/master/03.png)
+详情页的样式没写了
